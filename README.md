@@ -2,75 +2,49 @@
 
 --------------------------------------------------------------------------------
 <p align="center">
-	<img src="https://img.shields.io/badge/stars-1000+-blue.svg"/>
-	<img src="https://img.shields.io/badge/forks-100+-blue.svg"/>
+	<img src="https://img.shields.io/badge/stars-3000+-blue.svg"/>
+	<img src="https://img.shields.io/badge/forks-500+-blue.svg"/>
 	<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
 </p>
 
-This is a curated list of tutorials, projects, libraries, videos, papers, books and anything related to the incredible [PyTorch](http://pytorch.org/).
+This is a curated list of tutorials, projects, libraries, videos, papers, books and anything related to the incredible [PyTorch](http://pytorch.org/). Feel free to make a pull request to contribute to this list.
 
 ## Tutorials
 - [Official PyTorch Tutorials](https://github.com/pytorch/tutorials)
-	1. [Deep Learning with PyTorch: a 60-minute blitz](http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
-		- A perfect introduction to PyTorch's torch, autograd, nn and optim APIs
-   		- If you are a former Torch user, you can check out this instead: [Introduction to PyTorch for former Torchies](http://pytorch.org/tutorials/beginner/former_torchies_tutorial.html)
-	2. Custom C extensions
-   		- [Write your own C code that interfaces into PyTorch via FFI](http://pytorch.org/tutorials/advanced/c_extension.html)
-	3. [Writing your own neural network module that uses numpy and scipy](http://pytorch.org/tutorials/advanced/numpy_extensions_tutorial.html)
-	4. [Reinforcement (Q-)Learning with PyTorch](http://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 - [Official PyTorch Examples](https://github.com/pytorch/examples)
-	- MNIST Convnets
-	- Word level Language Modeling using LSTM RNNs
-	- Training Imagenet Classifiers with Residual Networks
-	- Generative Adversarial Networks (DCGAN)
-	- Variational Auto-Encoders
-	- Superresolution using an efficient sub-pixel convolutional neural network
-	- Hogwild training of shared ConvNets across multiple processes on MNIST
-	- Training a CartPole to balance in OpenAI Gym with actor-critic
-	- Natural Language Inference (SNLI) with GloVe vectors, LSTMs, and torchtext
-- [Practical PyTorch](https://github.com/spro/practical-pytorch)
-	- This focuses on using RNNs for NLP
-	- [Classifying Names with a Character-Level RNN](https://github.com/spro/practical-pytorch/blob/master/char-rnn-classification/char-rnn-classification.ipynb)
-	- [Generating Shakespeare with a Character-Level RNN](https://github.com/spro/practical-pytorch/blob/master/char-rnn-generation/char-rnn-generation.ipynb)
-	- [Generating Names with a Conditional Character-Level RNN](https://github.com/spro/practical-pytorch/blob/master/conditional-char-rnn/conditional-char-rnn.ipynb)
-	- [Translation with a Sequence to Sequence Network and Attention](https://github.com/spro/practical-pytorch/blob/master/seq2seq-translation/seq2seq-translation.ipynb)
+- [Practical Deep Learning with PyTorch by Deep Learning Wizard (Ritchie Ng)](https://github.com/ritchieng/deep-learning-wizard)
 - [Simple Examples to Introduce PyTorch](https://github.com/jcjohnson/pytorch-examples)
 - [Mini Tutorials in PyTorch](https://github.com/vinhkhuc/PyTorch-Mini-Tutorials)
-	- Tensor Multiplication, Linear Regresison, Logistic Regression, Neural Network, Modern Neural Network, and Convolutional Neural Network
 - [Deep Learning for NLP](https://github.com/rguthrie3/DeepLearningForNLPInPytorch)
-	1. Introduction to Torch's Tensor Library
-	2. Computation Graphs and Automatic Differentiation
-	3. Deep Learning Building Blocks: Affine maps, non-linearities, and objectives
-	4. Optimization and Training
-	5. Creating Network Components in Pytorch
-	  * Example: Logistic Regression Bag-of-Words text classifier
-	6. Word Embeddings: Encoding Lexical Semantics
-	  * Example: N-Gram Language Modeling
-	  * Exercise: Continuous Bag-of-Words for learning word embeddings
-	7. Sequence modeling and Long-Short Term Memory Networks
-	  * Example: An LSTM for Part-of-Speech Tagging
-	  * Exercise: Augmenting the LSTM tagger with character-level features
-	8. Advanced: Making Dynamic Decisions
-	  * Example: Bi-LSTM Conditional Random Field for named-entity recognition
-	  * Exercise: A new loss function
 - [Deep Learning Tutorial for Researchers](https://github.com/yunjey/pytorch-tutorial)
-	1. PyTorch Basics
-	2. Linear Regression
-	3. Logistic Regression
-	4. Feedforward Neural Network
-	5. Convolutional Neural Network
-	6. Deep Residual Network
-	7. Recurrent Neural Network
-	8. Bidirectional Recurrent Neural Network
-	9. Language Model (RNNLM)
-	10. Image Captioning (CNN-RNN)
-	11. Generative Adversarial Network
-	12. Deep Q-Network and Q-learning (WIP)
 - [Fully Convolutional Networks implemented with PyTorch](https://github.com/wkentaro/pytorch-fcn)
 - [Simple PyTorch Tutorials Zero to ALL](https://github.com/hunkim/PyTorchZeroToAll)
-
+- [DeepNLP-models-Pytorch](https://github.com/DSKSD/DeepNLP-models-Pytorch)
+- [MILA PyTorch Welcome Tutorials](https://github.com/mila-udem/welcome_tutorials)
+- [Practical PyTorch](https://github.com/spro/practical-pytorch)
+- [PyTorch Project Template](https://github.com/moemen95/PyTorch-Project-Template)
+	- A scalable template for PyTorch projects, with examples in Image Segmentation, Object classification, GANs and Reinforcement Learning.
+	- [Get started Tutorial](https://github.com/moemen95/PyTorch-Project-Template/blob/master/tutorials/getStarted_tutorial.md)
+	- [Mnist Tutorial](https://github.com/moemen95/PyTorch-Project-Template/blob/master/tutorials/mnist_tutorial.md)
+	- [ERFNET](https://github.com/moemen95/PyTorch-Project-Template/blob/master/agents/erfnet.py)
+	- [DCGAN](https://github.com/moemen95/PyTorch-Project-Template/blob/master/agents/dcgan.py)
+	- [DQN](https://github.com/moemen95/PyTorch-Project-Template/blob/master/agents/dqn.py)
 
 ## Papers Originally Implemented with PyTorch
+- [Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://github.com/yikangshen/Ordered-Neurons)
+- [Loss Visualization](https://github.com/tomgoldstein/loss-landscape)
+- [PyTorch-Kaldi Speech Recognition Toolkit](https://github.com/mravanelli/pytorch-kaldi)
+- [Hierarchical Multi-Task Learning Model](https://github.com/huggingface/hmtl)
+- [WaveGlow: A Flow-based Generative Network for Speech Synthesis](https://github.com/NVIDIA/waveglow)
+- [BERT](https://github.com/huggingface/pytorch-pretrained-BERT)
+- [Quantile Regression DQN](https://github.com/ars-ashuha/quantile-regression-dqn-pytorch)
+- [Accurate Neural Network Potential](https://github.com/aiqm/torchani)
+- [L-BFGS](https://github.com/hjmshi/PyTorch-LBFGS)
+- [Stochastic Downsampling for Cost-Adjustable Inference and Improved Regularization in Convolutional Networks ](https://github.com/xternalz/SDPoint)
+- [Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://github.com/github-pengge/PyTorch-progressive_growing_of_gans)
+- [PyTorch Realtime Multi-Person Pose Estimation](https://github.com/DavexPro/pytorch-pose-estimation)
+- [Faster Faster R-CNN Implementation](https://github.com/jwyang/faster-rcnn.pytorch)
+- [In-Place Activated BatchNorm for Memory-Optimized Training of DNNs](https://github.com/mapillary/inplace_abn)
 - [Wasserstein GAN](https://github.com/martinarjovsky/WassersteinGAN)
 - [OptNet: Differentiable Optimization as a Layer in Neural Networks](https://github.com/locuslab/optnet)
 - [Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer](https://github.com/szagoruyko/attention-transfer)
@@ -109,8 +83,24 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://github.com/clcarwin/sphereface_pytorch)
 - [Quasi-Recurrent Neural Network (QRNN)](https://github.com/salesforce/pytorch-qrnn)
 - [Enhanced Deep Residual Networks for Single Image Super-Resolution](https://github.com/thstkdgus35/EDSR-PyTorch)
+- [DiracNets](https://github.com/szagoruyko/diracnets)
+- [pytorch-CycleGAN-and-pix2pixpytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+- [OpenNMT](https://github.com/OpenNMT/OpenNMT-py)
+- [Superresolution using an efficient sub-pixel convolutional neural network](https://github.com/pytorch/examples/tree/master/super_resolution)
+- [Deep Learning for Physical Processes: Integrating Prior Scientific Knowledge](https://github.com/emited/flow)
+- [GANimation: Anatomically-aware Facial Animation from a Single Image (ECCV'18 Oral)](https://github.com/albertpumarola/GANimation)
 
 ## Papers with Third-Party PyTorch Implementations
+- [Clarinet](https://github.com/ksw0306/ClariNet)
+- [Continuous Wavelet Transforms](https://github.com/tomrunia/PyTorchWavelets)
+- [Neural Sequence labeling model](https://github.com/jiesutd/PyTorchSeqLabel)
+- [Improved Training of Wasserstein GANs](https://github.com/jalola/improved-wgan-pytorch)
+- [Binary Stochastic Neurons](https://github.com/Wizaron/binary-stochastic-neurons)
+- [ReSeg: A Recurrent Neural Network-based Model for Semantic Segmentation](https://github.com/Wizaron/reseg-pytorch)
+- [mixup: Beyond Empirical Risk Minimization](https://github.com/leehomyc/mixup_pytorch)
+- [Towards 3D Human Pose Estimation in the Wild: a Weakly-supervised Approach](https://github.com/xingyizhou/pytorch-pose-hg-3d)
+- [Hierarchical Attention Network for Document Classification](https://github.com/cedias/HAN-pytorch)
+- [Unsupervised Learning of Depth and Ego-Motion from Video](https://github.com/ClementPinard/SfmLearner-Pytorch)
 - [Learning to learn by gradient descent by gradient descent](https://github.com/ikostrikov/pytorch-meta-optimizer)
 - [Densely Connected Convolutional Networks](https://github.com/bamos/densenet.pytorch)
 - [A Neural Algorithm of Artistic Style](https://github.com/alexis-jacq/Pytorch-Tutorials)
@@ -175,8 +165,29 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Attention-Based Recurrent Neural Network Models for Joint Intent Detection and Slot Filling](https://github.com/DSKSD/RNN-for-Joint-NLU)
 - [Attentive Recurrent Comparators](https://github.com/sanyam5/arc-pytorch)
 - [PyTorch GAN Collection](https://github.com/znxlwm/pytorch-generative-model-collections)
+- [Compact Bilinear Pooling](https://github.com/DeepInsight-PCALab/CompactBilinearPooling-Pytorch)
+- [Striving for Simplicity: The All Convolutional Net](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+- [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+- [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images](https://github.com/utkuozbulak/pytorch-cnn-adversarial-attacks)
+ - [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization - 2](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+ - [FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://github.com/NVIDIA/flownet2-pytorch)
+ - [Optical Flow Estimation using a Spatial Pyramid Network](https://github.com/sniklaus/pytorch-spynet)
+ - [Skip-Thought Vectors](https://github.com/sanyam5/skip-thoughts)
+ - [Explaining and Harnessing Adversarial Examples](https://github.com/utkuozbulak/pytorch-cnn-adversarial-attacks)
+ - [Understanding Deep Image Representations by Inverting Them](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+ - [NIMA: Neural Image Assessment](https://github.com/truskovskiyk/nima.pytorch)
+ - [NASNet-A-Mobile. Ported weights](https://github.com/veronikayurchuk/pretrained-models.pytorch)
+ - [SmoothGrad: removing noise by adding noise](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
+ - [Interpretable Counting for Visual Question Answering](https://github.com/sanyam5/irlc-vqa)
+ - [Big collection of pretrained classification models](https://github.com/osmr/imgclsmob)
 
 ## Projects Implemented with Pytorch
+- [Mixed Precision Training in PyTorch](https://github.com/suvojit-0x55aa/mixed-precision-pytorch)
+- [Medical Torch, medical imaging framework for PyTorch](https://github.com/perone/medicaltorch)
+- [EuclidesDB, Multi-Model Machine Learning Feature Database](https://github.com/perone/euclidesdb)
+- [DeOldify, Coloring Old Images](https://github.com/jantic/DeOldify)
+- [Perturbative Neural Networks](https://github.com/michaelklachko/pnn.pytorch)
+- [Detectron models for Object Detection](https://github.com/ignacio-rocco/detectorch)
 - [Collection of Sequence to Sequence Models with PyTorch](https://github.com/MaximumEntropy/Seq2Seq-PyTorch)
 	1. Vanilla Sequence to Sequence models
 	2. Attention based Sequence to Sequence models
@@ -208,26 +219,34 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Complete Suite for Training Seq2Seq Models in PyTorch](https://github.com/eladhoffer/seq2seq.pytorch)
 - [Probabilistic Programming and Statistical Inference in PyTorch](https://github.com/stepelu/ptstat)
 - [Graphics code generating model using Processing](https://github.com/jtoy/sketchnet)
-
+- [MUSE: Multilingual Unsupervised and Supervised Embeddings](https://github.com/facebookresearch/MUSE)
+- [SLM-Lab: Modular Deep Reinforcement Learning framework in PyTorch](https://github.com/kengz/SLM-Lab)
+- [torchgan: Framework for modelling Generative Adversarial Networks in Pytorch](https://github.com/torchgan/torchgan)
 
 ## PyTorch Video Tutorials
 - [Practical Deep Learning with PyTorch](https://www.udemy.com/practical-deep-learning-with-pytorch/?couponCode=DEEPWIZARD)
+- [PyTorch Zero to All Lectures (Free)](http://bit.ly/PyTorchVideo)
 
 ## Useful PyTorch Tools
+- [PyText, deep learning based NLP modelling framework officially maintained by FAIR](https://github.com/facebookresearch/pytext)
+- [Torchstat for Statistics on PyTorch Models](https://github.com/Swall0w/torchstat)
 - [Load Audio files directly into PyTorch Tensors](https://github.com/pytorch/audio)
 - [Weight Initializations](https://github.com/pytorch/pytorch/blob/master/torch/nn/init.py)
 - [Spatial transformer implemented in PyTorch](https://github.com/fxia22/stn.pytorch)
 - [PyTorch AWS AMI, run PyTorch with GPU support in less than 5 minutes](https://github.com/ritchieng/dlami)
 - [Use tensorboard with PyTorch](https://github.com/lanpa/tensorboard-pytorch)
 - [Simple Fit Module in PyTorch, similar to Keras](https://github.com/henryre/pytorch-fitmodule)
+- [torchbearer: A model fitting library for PyTorch](https://github.com/ecs-vlc/torchbearer)
+- [PyTorch to Keras model converter](https://github.com/nerox8664/pytorch2keras)
+- [Gluon to PyTorch model converter with code generation](https://github.com/nerox8664/gluon2pytorch)
 
 ## Community
 - [PyTorch Discussion Forum](https://discuss.pytorch.org/)
-	- This is actively maintained by [Adam Paszke](https://github.com/apaszke)
 - [StackOverflow PyTorch Tags](http://stackoverflow.com/questions/tagged/pytorch)
-- [Gloqo](https://www.gloqo.com/)
-	- Add, discover and discuss paper implementations in PyTorch and other frameworks.
 
+## Links to This Repository
+- [Github Repository](https://github.com/ritchieng/the-incredible-pytorch)
+- [Website](https://www.ritchieng.com/the-incredible-pytorch/)
 
 ## Contributions
 Do feel free to contribute!
